@@ -1,32 +1,17 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
+# virtual environment
 .venv/
-.env
-.env.*
 
-# Node
-node_modules/
-build/
-dist/
-.cache/
+# python cache
+__pycache__/
+*.pyc
 
-# IDE
-.vscode/
-.idea/
+# local data and uploads
+backend/uploads/
+backend/app/uploads/
+backend/data/
+alpr/models/
+carid/__pycache__/
 
-# OS
+# OS junk
 .DS_Store
 Thumbs.db
-
-# Python notebooks
-*.ipynb_checkpoints
-
-# Logs
-logs/
-*.log
-
-# Misc
-coverage/
-*.sqlite3
